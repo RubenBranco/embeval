@@ -44,6 +44,8 @@ setup(
     install_requires=[
         'pseq',
         'gensim',
+        'terminaltables',
+        'click',
     ],
     package_dir={'': 'src'},
     packages=find_packages('src'),
