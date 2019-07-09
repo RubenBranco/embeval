@@ -27,7 +27,7 @@ setup(
     name='embeval',
     version=get_version('src', 'embeval', '__init__.py'),
     description='A framework for embedding evaluation automation and visualization.',
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     url='https://github.com/RubenBranco/embeval',
     author='Ruben Branco',
     author_email='ruben.branco@outlook.pt',
@@ -49,4 +49,9 @@ setup(
     ],
     package_dir={'': 'src'},
     packages=find_packages('src'),
+    entry_points={
+        'console_scripts': [
+            'embeval=embeval.main:main'
+        ]
+    }
 )
