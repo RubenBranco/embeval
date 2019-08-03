@@ -46,6 +46,7 @@ setup(
         'gensim',
         'terminaltables',
         'click',
+        'matplotlib',
     ],
     package_dir={'': 'src'},
     packages=find_packages('src'),

@@ -10,6 +10,7 @@ gensim = "*"
 pseq = "*"
 click = "*"
 terminaltables = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.6"
